@@ -90,3 +90,126 @@ border-radius: 4px;
   width:12px;
   height:12px;
 }
+
+.table-section{
+  background-color: var(--off-white);
+  padding-bottom: 4rem;
+}
+.bitcoin-image{
+  width:195px;
+  height:195px;
+  margin: 4.5em auto;
+}
+
+.text-container{
+  width: 90%;
+  min-width: 288px;
+  max-width: 900px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.text-container h2{
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 1.6rem;
+}
+
+.text-container p{
+  text-align: center;
+  margin: 2rem 0 3rem 0;
+  font-size: .9rem;
+  color: #757575;
+  line-height: 1.12rem;
+  font-weight: 500;
+}
+
+.table-container{
+  width: 210px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.table-container h5{
+  font-size: 1.12rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: var(--bitcoin-orange);
+}
+
+table{
+  width:100%;
+}
+
+td{
+  background-color:var(--just-white);
+  padding:10px 12px;
+  position: relative;
+}
+
+.name{
+  color: #B5B0AC;
+}
+
+.value{
+  color: #757575;
+}
+
+.down{
+  position: absolute;
+  display:inline-block;
+  margin-left: 10px;
+  background: url("./assets/icons/trending-down.svg") no-repeat;
+  background-position: center;
+  background-size:fill;
+  width:12px;
+  height:12px;
+}
+
+.up{
+  position: absolute;
+  display:inline-block;
+  margin-left: 10px;
+  background: url("./assets/icons/trending-up.svg") no-repeat;
+  background-position: center;
+  background-size:fill;
+  width:12px;
+  height:12px;
+}
+
+.top-left{
+  border-radius: 4px 0 0 0 ;
+}
+
+.top-right{
+  border-radius: 0 4px 0 0 ;
+}
+
+.bottom-left{
+  border-radius: 0 0 0 4px;
+}
+
+.bottom-right{
+  border-radius:0 0 4px 0;
+}
+
+.actualization{
+  background-color: var(--soft-orange);
+  font-size: 0.75rem;
+  text-align: center;
+  padding:8px;
+  margin-top: 1rem;
+}
+
+.slider-arrow{
+  position:absolute;
+  background: url("./assets/icons/right-arrow.svg") no-repeat;
+  background-size:contain;
+  background-position:center;
+  width:12px;
+  height:12px;
+  right:-30px;
+  top: calc(50% - 6px);
+}
